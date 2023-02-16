@@ -1,5 +1,5 @@
 body {
-    color:brown;
+    color:rgb(30, 34, 218);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
@@ -9,17 +9,27 @@ header,footer{
     color: rgba(168, 189, 93, 0.918);
 }
 
-#my-image{
+.site-title {
+    color: rgb(213, 226, 33);
+    text-decoration: border;
+}
+
+#images{
     box-shadow: 0 0 2px 1px black;
 
 }
 
-dl li{
-    background-color:rgb(102, 71, 187);
+ul li {
+    background-color: bisque;
+    list-style-type: disc;
+}
+
+dl dt {
+    background-color:rgb(223, 153, 230);
     list-style: square;
 }
 
-dl li:nth-child(odd){
+dl dt:nth-child(odd){
     background-color: rgb(68, 192, 130);
 }
 
@@ -33,8 +43,6 @@ dl li:nth-child(odd){
 nav ul a{
     text-decoration: none;
     color: rgb(219, 43, 131);
-  
-    
 }
 
 nav ul a,
@@ -42,9 +50,7 @@ nav ul a:link,
 nav ul a:visited{
     background-color: rgb(201, 142, 181);
     border: 1px solid rgb(44, 111, 199);
-    
 }
-
 
 nav ul a:hover,
 nav ul a:focus{
