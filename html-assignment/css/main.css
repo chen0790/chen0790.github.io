@@ -11,7 +11,7 @@ header,footer{
 
 .site-title {
     color: rgb(235, 12, 142);
-    text-decoration: border;
+    text-decoration: underline;
 }
 
 #images{
