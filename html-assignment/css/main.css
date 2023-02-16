@@ -1,0 +1,56 @@
+body {
+    color:brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+header,footer{
+    background-color: rgb(54, 24, 226);
+    color: rgba(168, 189, 93, 0.918);
+}
+
+#my-image{
+    box-shadow: 0 0 2px 1px black;
+
+}
+
+dl li{
+    background-color:rgb(102, 71, 187);
+    list-style: square;
+}
+
+dl li:nth-child(odd){
+    background-color: rgb(68, 192, 130);
+}
+
+ nav li{
+    
+    list-style-type: none;
+    
+    
+}
+
+nav ul a{
+    text-decoration: none;
+    color: rgb(219, 43, 131);
+  
+    
+}
+
+nav ul a,
+nav ul a:link,
+nav ul a:visited{
+    background-color: rgb(201, 142, 181);
+    border: 1px solid rgb(44, 111, 199);
+    
+}
+
+
+nav ul a:hover,
+nav ul a:focus{
+    background-color: rgb(14, 125, 199);
+}
+
+nav ul a:active{
+    text-decoration: underline;
+}
