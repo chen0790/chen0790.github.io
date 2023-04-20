@@ -1,0 +1,1332 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: auto;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: Open Sans;
+}
+/* HTML5 display-role reset for older browsers */
+
+@media screen and (max-width: 760px) {
+
+    /* Styles applied below width of 760px */
+    .header {
+        padding: 15px;
+        background-color: rgb(2, 2, 2);
+    }
+
+    .logo {
+        background: size 10px;
+        padding: 20px 20px 20px 0px;
+        background-color: #c78c06;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navItem {
+        list-style: none;
+    }
+
+    .navItem:nth-child(2) {
+        margin: 20px;
+    }
+
+    .navItem:nth-child(3) {
+        margin: 20px;
+    }
+
+    .navItem:nth-child(4) {
+        margin: 20px;
+    }
+
+    .navItem:nth-child(5) {
+        margin: 20px;
+    }
+
+    ul a {
+        color: #c78c06;
+        text-decoration: none;
+        font-size: 1em;
+    }
+
+    .navItem:nth-child(1) {
+        background-color: #c78c06;
+        width: 100%;
+    }
+
+    .navItem:nth-child(1) a {
+        color: black;
+    }
+
+    .header .search-container {
+        float: none;
+        position: relative;
+        
+      }
+      
+      .header input[type=text] {
+        padding: 6px;
+        font-size: 17px;
+        border: none;
+        margin: 0px;
+        width: 88%;
+      }
+      
+      .header .search-container button {
+        float: none; 
+        padding: 6px 10px;
+        margin-left: -3px;
+        background: rgb(2, 2, 2);
+        font-size: 17px;
+        border-width: 1px;
+        border-color: #c78c06;
+        cursor: pointer;
+      }
+
+    /* ************  Welcome page  **************  */
+
+    .part1 {
+        background: url(../images/main-banner.jpg);
+        background-position: 55% 55%;
+        background-size: cover;
+        height: 570px;
+    }
+
+    .Welcome {
+        position: absolute;
+        padding: 15px;
+        margin-top: 80px;
+        text-align: left;
+        background: rgba(0, 0, 0, 0.5);
+        background-position: inherit;
+        color: #fff
+    }
+
+    .headerContainer {
+        padding-top: 10px;
+        background-color: black;
+
+    }
+
+    .w1 {
+        margin-top: 30px;
+        font-size: 60px;
+        font-weight: bolder;
+        text-align: left;
+        color: white;
+
+
+    }
+
+    .w2 {
+        margin-top: 20px;
+        font-size: 15px;
+        text-align: left;
+        color: white;
+    }
+
+    .Welcome .contact {
+        height: 100px;
+        padding: 10px 5px 10px 5px;
+        line-height: 50px;
+        width: 250px;
+        margin-top: 15px;
+        background-color: #c78c06;
+        border: none;
+        cursor: pointer;
+    }
+
+    .c1 {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+
+
+    /* ************  About us page  **************  */
+
+    .Aboutus {
+        background-color: #ffe6ac;
+        padding: 15px;
+    }
+
+    .Aboutus .block1 img {
+        width: 100%;
+    }
+
+    .Aboutus h2 {
+        font-size: 40px;
+        font-weight: bolder;
+        margin: 10px 0 10px 0;
+    }
+
+    /* ************  Our Service page  **************  */
+
+    h2 {
+        font-size: 50px;
+        font-weight: bolder;
+        margin: 10px 0 10px 15px;
+    }
+
+    /* ************  Our Service page --- Digital Plans **************  */
+    .DigitalPlans img {
+        width: 100%;
+    }
+
+    .DigitalPlans {
+        background-color: #ffe6ac;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .Digital h3 {
+        font-size: 30px;
+        font-weight: bolder;
+        margin: 10px 0 10px 15px;
+    }
+
+    .Digital p {
+        margin-left: 15px;
+    }
+
+    .DigitalPlans_button .contact {
+        height: 100px;
+        padding: 10px 5px 10px 5px;
+        line-height: 50px;
+        width: 250px;
+        margin-top: 15px;
+        background-color: rgb(2, 2, 2);
+        border: none;
+        cursor: pointer;
+        margin: 15px;
+    }
+
+    .DigitalPlans_button a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        margin-right: 20px;
+    }
+
+    .DigitalPlans_button i {
+        color: white;
+    }
+
+    /* ************  Our Service page --- Marketing Plans **************  */
+
+
+    .MarketingPlans img {
+        width: 100%;
+    }
+
+    .MarketingPlans {
+        background-color: #ffe6ac;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 15px;
+    }
+
+    .Marketing h3 {
+        font-size: 30px;
+        font-weight: bolder;
+        margin: 10px 0 10px 15px;
+    }
+
+    .Marketing p {
+        margin-left: 15px;
+    }
+
+    .MarketingPlans_button .contact {
+        height: 100px;
+        padding: 10px 5px 10px 5px;
+        line-height: 50px;
+        width: 250px;
+        margin-top: 15px;
+        background-color: rgb(2, 2, 2);
+        border: none;
+        cursor: pointer;
+        margin: 15px;
+    }
+
+    .MarketingPlans_button a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        margin-right: 20px;
+    }
+
+    .MarketingPlans_button i {
+        color: white;
+    }
+
+    /* ************  Our Service page --- Video Production **************  */
+
+    .VideoPlans img {
+        width: 100%;
+    }
+
+    .VideoPlans {
+        background-color: #ffe6ac;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 15px;
+    }
+
+    .Video h3 {
+        font-size: 30px;
+        font-weight: bolder;
+        margin: 10px 0 10px 15px;
+    }
+
+    .Video p {
+        margin-left: 15px;
+    }
+
+    .VideoPlans_button .contact {
+        height: 100px;
+        padding: 10px 5px 10px 5px;
+        line-height: 50px;
+        width: 250px;
+        margin-top: 15px;
+        background-color: rgb(2, 2, 2);
+        border: none;
+        cursor: pointer;
+        margin: 15px;
+    }
+
+    .VideoPlans_button a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        margin-right: 20px;
+    }
+
+    .VideoPlans_button i {
+        color: white;
+    }
+
+
+    /* ************  Our Service page --- Web Development **************  */
+
+    .WebPlans img {
+        width: 100%;
+    }
+
+    .WebPlans {
+        background-color: #ffe6ac;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 15px;
+    }
+
+    .Web h3 {
+        font-size: 30px;
+        font-weight: bolder;
+        margin: 10px 0 10px 15px;
+    }
+
+    .Web p {
+        margin-left: 15px;
+    }
+
+    .WebPlans_button .contact {
+        height: 100px;
+        padding: 10px 5px 10px 5px;
+        line-height: 50px;
+        width: 250px;
+        margin-top: 15px;
+        background-color: rgb(2, 2, 2);
+        border: none;
+        cursor: pointer;
+        margin: 15px;
+    }
+
+    .WebPlans_button a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        margin-right: 20px;
+    }
+
+    .WebPlans_button i {
+        color: white;
+    }
+
+/* ************  Our Service page --- Print **************  */
+
+.PrintPlans img {
+    width: 100%;
+}
+
+.PrintPlans {
+    background-color: #ffe6ac;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.Print h3 {
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 10px 0 10px 15px;
+}
+
+.Print p {
+    margin-left: 15px;
+}
+
+.PrintPlans_button .contact {
+    height: 100px;
+    padding: 10px 5px 10px 5px;
+    line-height: 50px;
+    width: 250px;
+    margin-top: 15px;
+    background-color: rgb(2, 2, 2);
+    border: none;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.PrintPlans_button a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.PrintPlans_button i {
+    color: white;
+}
+
+/* ************  Our Vision **************  */
+.Vision{
+    background: url(../images/vision.jpg);
+    background-position: 55% 55%;
+    background-size: cover;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.Vision h3 {
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 30px 0px 10px 15px;
+    color: white;
+}
+.Vision p {
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white;
+}
+.Vision_button .contact {
+    height: 100px;
+    padding: 10px 5px 10px 5px;
+    line-height: 50px;
+    width: 250px;
+    margin-top: 15px;
+    background-color: rgb(0, 0, 0, 0.8);
+    border: 1px solid #c78c06;
+    cursor: pointer;
+    margin: 15px;
+}
+.Vision_button a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.Vision_button i {
+    color: white;
+}
+
+/* ************  Our Team page --- John **************  */
+
+.John_img img{
+    width: 100%;
+}
+
+.John {
+    background-color: #ffe6ac;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.John h3 {
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 10px 0 10px 15px;
+}
+
+.John p {
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.John h4{
+    font-weight: bold;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-bottom: 2px solid #c78c06;
+}
+/* ************  Our Team page --- Bob **************  */
+
+.Bob_img img{
+    width: 100%;
+}
+
+.Bob {
+    background-color: #ffe6ac;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.Bob h3 {
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 10px 0 10px 15px;
+}
+
+.Bob p {
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.Bob h4{
+    font-weight: bold;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-bottom: 2px solid #c78c06;
+}
+
+/* ************  Contact Us page  **************  */
+
+.SendMessage h3{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.SendMessage{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+ #Fullname,#Email,#Message {
+    width: 98%;
+}
+
+.SendButton .contact {
+    margin-top: 15px;
+    background-color: rgb(2,2,2);
+    margin: 15px 0 0px 0;
+    border: none;
+}
+.SendButton a {
+    text-decoration: none;
+    color: #c78c06;
+    font-size: 22px;
+}
+
+/* ************  Contact Us page --- Hours **************  */
+.Hoursofoperation h3{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.Hoursofoperation{
+    margin: 15px;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+#day,#hours{
+    background: #ffe6ac;
+}
+#day,#hours,#monday,#am,#saturday,#closed{
+    padding: 15px;
+}
+
+/* ************  Contact Us page --- Hours **************  */
+.location h3{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.location{
+    margin: 15px;
+}
+.location iframe{
+    width: 100%;
+}
+
+
+
+
+
+
+
+/* ************  footer **************  */
+
+    footer {
+        background-color: rgb(2, 2, 2);
+        height: 100px;
+    }
+footer .footer_content{
+    color: #c78c06;
+    margin-left: 15px;
+    padding-top: 30px;
+}
+
+}
+
+
+
+
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+@media screen and (min-width: 760px) {
+    
+    #all{
+        max-width: 1200px;
+        align-content: center;
+    }
+    header {
+        padding:0;
+        background-color: rgb(2, 2, 2);
+        height: 120px;
+        display:grid;
+        
+    }
+
+    .header{
+        display:grid;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        
+    }
+    header .logo img{
+        width: 85px;
+        margin-right: 80px;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+    }
+    .navItem {
+        list-style: none;
+        display:inline;
+        padding: 15px 30px 15px 30px;
+    }
+
+
+    ul a {
+        color: #c78c06;
+        text-decoration: none;
+        font-size: 1em;
+    }
+
+    .navItem:nth-child(1) {
+        background-color: #c78c06;
+        padding: 15px 30px 15px 30px;
+        
+    }
+
+    .navItem:nth-child(1) a {
+        color: black;
+    }
+
+
+    .header .search-container {
+        float: none;
+        position: relative;
+      }
+     
+      .header input[type=text] {
+        padding: 6px;
+        font-size: 17px;
+        border: none;
+        margin: 0px;
+        width: 88%;
+      }
+      
+      .header .search-container button {
+        float: none; 
+        padding: 6px 10px;
+        margin-left: -3px;
+        background: rgb(2, 2, 2);
+        font-size: 17px;
+        border-width: 1px;
+        border-color: #c78c06;
+        cursor: pointer;
+      }
+    /* ************  Welcome page  **************  */
+
+    .part1 {
+        background: url(../images/main-banner.jpg);
+        background-position: 55% 55%;
+        background-size: cover;
+        height: 570px;
+        padding: 80px;
+    }
+
+    .Welcome {
+        padding: 15px;
+        margin-top: 80px;
+        text-align: left;
+        background: rgba(0, 0, 0, 0.5);
+        background-position: inherit;
+        /* color: #fff; */
+        /* align-items: center; */
+        
+    }
+    .headerContainer {
+        padding-top: 10px;
+        background-color: black;
+
+    }
+
+    .w1 {
+        margin-top: 30px;
+        padding-right: 300px;
+        font-size: 60px;
+        font-weight: bolder;
+        text-align: left;
+        color: white;
+
+
+    }
+
+    .w2 {
+        margin-top: 20px;
+        font-size: 15px;
+        text-align: left;
+        color: white;
+    }
+
+    .Welcome .contact {
+        height: 100px;
+        padding: 10px 5px 10px 5px;
+        line-height: 50px;
+        width: 250px;
+        margin-top: 15px;
+        background-color: #c78c06;
+        border: none;
+        cursor: pointer;
+    }
+
+    .c1 {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+
+
+    /* ************  About us page  **************  */
+
+    .Aboutus {
+        background-color: #ffe6ac;
+        padding: 15px;
+        padding: 15px 95px 15px 95px;
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
+       
+    }
+  .block1 img{
+        float: left;
+        width: 100%;
+        margin-right: 15px;
+    }
+
+    .Aboutus h2 {
+        font-size: 40px;
+        font-weight: bolder;
+        margin: 10px 0 10px 10px;
+    }
+    .Aboutus p{
+        margin: 10px 0 10px 10px;
+    }
+
+    /* ************  Our Service page  **************  */
+
+    h2 {
+        font-size: 50px;
+        font-weight: bolder;
+        margin: 10px 0 5px 95px;
+    }
+    .Services {
+        display:grid;
+        grid-template-columns:repeat(6,1fr);
+        grid-template-rows:repeat(2,1fr);
+        padding-left:80px;
+        padding-right:80px;
+    }
+    .Services .DigitalPlans{
+        grid-column: span 3;
+    }
+    .Services .MarketingPlans{
+        grid-column: span 3;
+    }
+    .Services .VideoPlans{
+        grid-column: span 2;
+    }
+    .Services .WebPlans{
+        grid-column: span 2;
+    }
+    .Services .PrintPlans{
+        grid-column: span 2;
+    }
+    
+    /* ************  Our Service page --- Digital Plans **************  */
+    .DigitalPlans img {
+        width: 100%;
+    }
+
+    .DigitalPlans {
+        background-color: #ffe6ac;
+        margin:0px 5px 5px 15px;
+    }
+
+    .Digital h3 {
+        font-size: 30px;
+        font-weight: bolder;
+        margin: 10px 0 10px 15px;
+    }
+
+    .Digital p {
+        margin: 15px;
+    }
+
+    .DigitalPlans_button .contact {
+        height: 100px;
+        line-height: 50px;
+        width: 100%;
+        background-color: rgb(2, 2, 2);
+        border: none;
+        cursor: pointer;
+        margin: 15px;
+    }
+
+    .DigitalPlans_button{
+        margin-right: 30px;
+    }
+    
+
+    .DigitalPlans_button a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        margin-right: 20px;
+    }
+
+    .DigitalPlans_button i {
+        color: white;
+    }
+
+    /* ************  Our Service page --- Marketing Plans **************  */
+
+
+    .MarketingPlans img {
+        width: 100%;
+    }
+
+    .MarketingPlans {
+        background-color: #ffe6ac;
+        margin:0px 15px 5px 5px;
+    }
+
+    .Marketing h3 {
+        font-size: 30px;
+        font-weight: bolder;
+        margin: 10px 0 10px 15px;
+    }
+
+    .Marketing p {
+        margin: 15px;
+    }
+
+    .MarketingPlans_button .contact {
+        height: 100px;
+        padding: 10px 5px 10px 5px;
+        line-height: 50px;
+        width: 100%;
+        margin-top: 15px;
+        background-color: rgb(2, 2, 2);
+        border: none;
+        cursor: pointer;
+        margin: 15px;
+    }
+    .MarketingPlans_button{
+        margin-right: 30px;
+    }
+
+    .MarketingPlans_button a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        margin-right: 20px;
+    }
+
+    .MarketingPlans_button i {
+        color: white;
+    }
+
+    /* ************  Our Service page --- Video Production **************  */
+
+    .VideoPlans img {
+        width: 100%;
+    }
+
+    .VideoPlans {
+        background-color: #ffe6ac;
+        margin:5px 5px 15px 15px;
+        height: 600px;
+    }
+
+    .Video h3 {
+        font-size: 30px;
+        font-weight: bolder;
+        margin: 10px 0 10px 15px;
+    }
+
+    .Video p {
+        margin: 15px;
+    }
+
+    .VideoPlans_button .contact {
+        height: 100px;
+        padding: 10px 5px 10px 5px;
+        line-height: 50px;
+        width: 100%;
+        margin-top: 15px;
+        background-color: rgb(2, 2, 2);
+        border: none;
+        cursor: pointer;
+        margin: 15px;
+    }
+
+    .VideoPlans_button{
+        margin-right: 30px;
+    }
+    .VideoPlans_button a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        margin-right: 20px;
+    }
+
+    .VideoPlans_button i {
+        color: white;
+    }
+
+
+    /* ************  Our Service page --- Web Development **************  */
+
+    .WebPlans img {
+        width: 100%;
+    }
+
+    .WebPlans {
+        background-color: #ffe6ac;
+        margin:5px 15px 15px 5px;
+        height: 600px;
+    }
+
+    .Web h3 {
+        font-size: 30px;
+        font-weight: bolder;
+        margin: 10px 0 10px 15px;
+    }
+    .Web p {
+        margin: 15px 15px 15px ;
+    }
+
+    .WebPlans_button .contact {
+        height: 100px;
+        padding: 10px 5px 10px 5px;
+        line-height: 50px;
+        width: 100%;
+        margin-top: 15px;
+        background-color: rgb(2, 2, 2);
+        border: none;
+        cursor: pointer;
+        margin: 15px;
+    }
+    .WebPlans_button{
+        margin-right: 30px;
+    }
+
+    .WebPlans_button a {  
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        margin-right: 20px;
+    }
+
+    .WebPlans_button i {
+        color: white;
+    }
+
+/* ************  Our Service page --- Print **************  */
+
+.PrintPlans img {
+    width: 100%;
+}
+
+.PrintPlans {
+    background-color: #ffe6ac;
+    margin:5px 15px 15px 0px;
+    height: 600px;
+}
+
+.Print h3 {
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 10px 0 10px 15px;
+}
+
+.Print p {
+    margin: 15px;
+
+}
+
+.PrintPlans_button .contact {
+    height: 100px;
+    padding: 10px 5px 10px 5px;
+    line-height: 50px;
+    width: 100%;
+    margin-top: 15px;
+    background-color: rgb(2, 2, 2);
+    border: none;
+    cursor: pointer;
+    margin: 15px;
+}
+.PrintPlans_button{
+    margin-right: 30px;
+}
+
+.PrintPlans_button a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.PrintPlans_button i {
+    color: white;
+}
+
+/* ************  Our Vision **************  */
+.Vision{
+    background: url(../images/vision.jpg);
+    background-position: 55% 55%;
+    background-size: cover;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    
+}
+.Vision h3 {
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 30px 0px 10px 95px;
+    color: white;
+}
+.Vision p {
+    margin-left: 95px;
+    margin-right: 95px;
+    color: white;
+}
+.Vision_button .contact {
+    height: 100px;
+    padding: 10px 5px 10px 5px;
+    line-height: 50px;
+    width: 250px;
+    margin-top: 15px;
+    background-color: rgb(0, 0, 0, 0.8);
+    border: 1px solid #c78c06;
+    cursor: pointer;
+    margin: 15px;
+    margin-left: 95px;
+}
+.Vision_button a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.Vision_button i {
+    color: white;
+}
+
+/* ************  Our Team page --- John **************  */
+
+.OurTeam{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.John{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+}
+.Bob {
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+}
+.Bob .Bob_block{
+    order: -1;
+}
+
+.John_img img{
+    width:100%;
+}
+
+.John {
+    background-color: #ffe6ac;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.John h3 {
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 10px 0 10px 15px;
+}
+
+.John p {
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.John h4{
+    font-weight: bold;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-bottom: 2px solid #c78c06;
+}
+/* ************  Our Team page --- Bob **************  */
+
+.Bob {
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+}
+.Bob .Bob_block{
+    order: -1;
+}
+
+.Bob_img img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    
+}
+
+.Bob {
+    background-color: #ffe6ac;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -5px;
+}
+
+.Bob h3 {
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 10px 0 10px 15px;
+}
+
+.Bob p {
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.Bob h4{
+    font-weight: bold;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-bottom: 2px solid #c78c06;
+}
+
+/* ************  Contact Us page  **************  */
+
+.SendMessage h3{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.SendMessage{
+    margin-left: 95px;
+    margin-right: 95px;
+}
+ #Fullname,#Email,#Message {
+    width: 98%;
+}
+
+.SendButton .contact {
+    margin-top: 15px;
+    background-color: rgb(2,2,2);
+    margin: 15px 0 0px 0;
+    border: none;
+}
+.SendButton a {
+    text-decoration: none;
+    color: #c78c06;
+    font-size: 22px;
+}
+
+/* ************  Contact Us page --- Hours **************  */
+.Hoursofoperation h3{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.Hoursofoperation{
+    margin: 15px 95px 15px 95px;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+#day,#hours{
+    background: #ffe6ac;
+}
+#day,#hours,#monday,#am,#saturday,#closed{
+    padding: 15px;
+}
+
+/* ************  Contact Us page --- Hours **************  */
+.location h3{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.location{
+    margin: 15px 95px 15px 95px;
+}
+.location iframe{
+    width: 100%;
+}
+
+
+
+
+
+
+
+/* ************  footer **************  */
+
+    footer {
+        background-color: rgb(2, 2, 2);
+        height: 100px;
+    }
+footer .footer_content{
+    color: #c78c06;
+    margin-left: 95px;
+    padding-top: 30px;
+}
+  
+}
